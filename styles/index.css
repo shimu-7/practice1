@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: grey;
+    height: 70px;
+}
+.cl1{
+    display: flex;
+    /* align-content: center; */
+    justify-content:space-around;
+    padding: 10px;
+}
+.logo{
+    padding: 5px;
+    width: 150px;
+}
+ .item{
+    display: inline-block;
+    margin-right: 40px;
+    padding: 10px;
+    /* text-decoration: none;
+    padding:10px;
+    color: white; */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    cursor: pointer;
+    color: antiquewhite;
+}
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+    height: 100vh;
+    align-items: center;
+    background-image: url('../images/background.png'),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+}
+button{
+    background-color: red;
+    margin: 20px;
+    border: 1px solid red;
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: gray;
+    border: 1px solid gray;
+}
+.about{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 20px;
+}
+ .section2{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .service-section{
+    background-image: url('../images/background.png'),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    height: 100vh;
+ }
+ .section2{
+    display:flex
+ }
+ .icon{
+    padding: 15px;
+    height: 325px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 5px 5px 100px 10px gray;
+ }
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: black;
+    color: whitesmoke;
+    height: 300px;
+    padding-top: 100px;
+}
+/* .f1{
+    width: 200px;
+} */
+ul>li{
+    padding-top: 10px;
+}
+div>h4{
+    padding-bottom: 30px;
+}
+hr{
+    color:rgba(128, 128, 128, 0.344);
+}
+.f2{
+    background-color:black;
+    height: 100px;
+    color: white;
+    text-align: center;
+
+}
+.f2>p{
+    padding-top: 20px;
+}
